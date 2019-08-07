@@ -1,0 +1,36 @@
+body{
+    background: #000000;
+    font-family: "Oswald",sans-serif;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000000;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    opacity: .4;
+    text-decoration: .25s;
+}
+
+li a:hover {
+    opacity: 1;
+}
+.label {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
