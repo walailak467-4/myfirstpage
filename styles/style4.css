@@ -1,0 +1,52 @@
+body {
+    background: black;
+    font-family: "Oswald Regular",sans-serif;
+    list-style-type: none;
+}
+.manubar {
+    float: right;
+}
+.manubar a {  
+    opacity: .4;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;    
+    text-decoration: .25s;
+    letter-spacing: 3px;
+}
+.manubar a:hover {
+    opacity: 1;
+}
+.title {
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+    text-shadow: 3px 2px  darkorange;
+    margin: 0;
+    padding-top: 50px;
+    padding-left: 100px;
+}
+.contact {
+    color: white;
+    text-decoration: none;
+    float: left;
+    font-size: 30px;
+    padding-top: 30px;
+    padding-left: 160px;
+    line-height: 80pt;
+    font-family: "TH sarabun new",sans-serif;
+}
+.box {
+    float: left;
+    color: black;
+    text-decoration: none;
+    font-size: 30px;
+    line-height: 40pt;
+    font-family: "TH sarabun new",sans-serif;
+    background-color: orange;
+    border: 2px solid white;
+    padding: 30px 30px;
+    text-align: left;
+}

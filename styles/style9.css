@@ -1,0 +1,45 @@
+body {
+    background: black;
+    font-family: "Oswald Regular",sans-serif;
+    list-style-type: none;
+    color: white
+}
+.manubar {
+    float: right;
+}
+.manubar a {  
+    opacity: .4;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;    
+    text-decoration: .25s;
+    letter-spacing: 3px;
+}
+.manubar a:hover {
+    opacity: 1;
+}
+table {
+    font-family: "TH sarabun new", sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+th{
+    border: 0px solid #dddddd;
+    font-size: 40px;
+    padding-left: 60px;
+    padding-top: 100px;
+    line-height: 70px;
+}
+td {
+    border: 0px solid #dddddd;
+    font-size: 30px;
+    padding-left: 60px;
+    padding-top: 20px;
+    line-height: 70px;
+}
+  table.a {
+    table-layout: fixed;
+    width: 100%; 
+}
